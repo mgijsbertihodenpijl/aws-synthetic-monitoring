@@ -19,6 +19,6 @@
     },
     "LogFormat": "JSON",
     "LogGroupNames": [
-        "/aws/lambda/CdkWorkshopStack-HelloHandler2E4FBA4D-GRFRB3LNFZ8M"
+        "/aws/lambda/CdkWorkshopStack-HelloHandler*"
     ]
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 !/bin/bash
 
-URL=https://8e6gue6o5d.execute-api.eu-west-1.amazonaws.com/prod
+URL="YOUR ENPOINT"
 
 echo ${URL}
 while true; do

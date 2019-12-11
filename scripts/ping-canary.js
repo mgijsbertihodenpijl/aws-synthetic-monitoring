@@ -2,7 +2,7 @@ var synthetics = require('Synthetics');
 const log = require('SyntheticsLogger');
 const https = require('https');
 const http = require('http');
-const api = "8e6gue6o5d.execute-api.eu-west-1.amazonaws.com";
+const api = "YOUR ENPOINT";
 const path = "/prod/ping";
 
 const apiCanaryBlueprint = async function () {
