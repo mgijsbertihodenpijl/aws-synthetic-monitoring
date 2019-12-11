@@ -1,0 +1,24 @@
+{
+    "Schema": {
+        "Name": "CloudWatchLogRule",
+        "Version": 1
+    },
+    "AggregateOn": "Count",
+    "Contribution": {
+        "Filters": [
+            {
+                "Match": "$.path",
+                "NotIn": [
+                    "/ping"
+                ]
+            }
+        ],
+        "Keys": [
+            "$.path"
+        ]
+    },
+    "LogFormat": "JSON",
+    "LogGroupNames": [
+        "/aws/lambda/CdkWorkshopStack-HelloHandler2E4FBA4D-GRFRB3LNFZ8M"
+    ]
+}
